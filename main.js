@@ -45,6 +45,7 @@ function reset() {
     timer = timerReset;
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
+    ctx.fillStyle = 'white';
     ctx.fillText('SPACE to start', can.width / 2, can.height / 2);
 }
 
@@ -150,6 +151,8 @@ function loop() {
         canvasCollision(enemy);
 
         if(collide(player, enemy)) {
+            ctx.fillStyle = 'green';
+            enemy.rect(ctx);
             reset();
             break;
         } else {
