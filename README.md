@@ -1,3 +1,2 @@
-Paparazzi
-
-Simple top-down game originally created at Encode/Decode 2016 @ Johnson-Brock
+# Encode/Decode (Code Camp) Project for 2016 (Johnson-Brock)
+[Try it!](https://allknowingfrog.github.io/paparazzi)
